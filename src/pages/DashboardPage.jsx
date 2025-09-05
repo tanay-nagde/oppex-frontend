@@ -51,7 +51,7 @@ const Dashboard = () => {
       }
 
       alert("Logged out successfully!");
-      navigate("/login");
+      navigate("/");
     } catch (err) {
       console.error(err);
       alert("Error logging out!");
